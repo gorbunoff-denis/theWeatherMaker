@@ -1,6 +1,6 @@
 # theWeatherMaker
 
-Имя: Денис Горбунов
+Денис Горбунов
 Discord: denis_gorbunov
 Telegram: @gorbunoff_denis
 
