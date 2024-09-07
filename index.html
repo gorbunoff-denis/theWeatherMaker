@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page">
+    <div class="container">
+        <header class="header">
+            <h1 class="visually-hidden">Прогноз погоды</h1>
+            <a class="header__logo" href="#">
+                <img src="./public/img/header-logo.svg" width="192"  height="30"  alt="Логотип прилложения 'Прогнзо погоды'">
+            </a>
+            <form class="header__search-form">
+                <label class="visually-hidden" for="search-input">Поиск по городу</label>
+                <input class="header__search-input" type = "text" name="search-input" id="search-input" placeholder="Поиск по городу">
+            </form>
+        </header>
+        <main>
+            <section class="weather">
+                <h2 class="visually-hidden">Погода сегодня</h2>
+                <div class="weather__inner">
+                    <div class="weather__day today">
+                        <p class="today__city">Москва</p>
+                        <time class="today__date">Суббота, 06 января<br>11:29</time>
+                        <p class="today__temperature">
+                            <span class="minus">-</span>
+                            <span class="value">7</span>
+                            <span class="deg">&deg;</span>
+                        </p>
+                        <p class="today__info">
+                            <img class="today__info-icon" src="./public/img/icons/cloudy.png"  alt = "Пиктограмма облачности">
+                            <span class="today__info-description">Облачно</span>
+                        </p>
+                        <p class="today__description">Ощущается как -11&deg;</p>
+                    </div>
+                   <ul class="weather__details">
+                       <li class="weather__details-item" data-content = "humidity">
+                           <p class="weather__details-title">Влажность</p>
+                           <span class="weather__details-icon">
+
+                           </span>
+                           <p class = "weather__details-value">75%</p>
+                       </li>
+                       <li class="weather__details-item"></li>
+                       <li class="weather__details-item"></li>
+                       <li class="weather__details-item"></li>
+                       <li class="weather__details-item"></li>
+                       <li class="weather__details-item"></li>
+                   </ul>
+                </div>
+            </section>
+            <section class="slider">
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src:  url("../../public/fonts/Raleway-Bold.woff2") format("woff2"),
+        url("../../public/fonts/Raleway-Bold.woff") format("woff");
+        font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  src:  url("../../public/fonts/Raleway-Regular.woff2") format("woff2"),
+        url("../../public/fonts/Raleway-Regular.woff") format("woff");
+  font-display: swap;
+}
